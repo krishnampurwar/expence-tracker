@@ -1,0 +1,25 @@
+.navigation{
+    height:4rem;
+    background-color: #cb2323;
+    padding:2rem;
+    color:rgb(0, 0, 0)
+}
+.logo{
+    text-decoration: none;
+    color:white
+}
+
+.navigation-links-container{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+
+.nav-link{
+    font-size:1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 2rem;
+    /* color:#104023; */
+    color:white
+}

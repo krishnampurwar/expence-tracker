@@ -1,0 +1,53 @@
+.paid-bills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 4rem;
+}
+
+.paid-bills-table th,
+.paid-bills-table td {
+    padding: 8px 16px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.paid-bills-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+
+.paid-bills-table .highlight {
+    background-color: #d9edf7;
+}
+
+.total-amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+    color: #17c95f;
+}
+
+.remaining-amount {
+    color: #104023;
+}
+
+.monthly-budget{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #17c95f;
+}
+
+.edit,.save{
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+    .date-head,.bill-date{
+        display: none;
+    }
+}

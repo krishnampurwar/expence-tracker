@@ -1,0 +1,70 @@
+.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 4rem;;
+  }
+  
+  .bill-table th {
+    background-color: #ddd;
+    text-align: left;
+    padding: 0.5rem;
+  }
+  
+  .bill-table td {
+    /* border: 1px solid #ddd; */
+    padding: 0.5rem;
+  }
+
+
+  @media (max-width: 600px) {
+    .bill-table {
+      font-size: 0.8rem;
+    }
+    
+    .bill-table th,
+    .bill-table td {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    
+    .bill-table th {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+
+
+/***modal*/
+  .edit-bill-modal{
+    height:22rem;
+    width:20rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 1rem;
+    padding:1rem;
+  }
+
+  .edit-bill-modal-btns{
+    margin-top:1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .edit-date-input{
+    padding: 5px;
+    border-radius: 0.2rem;
+    border:1px solid gray!important;
+    width: 100%;
+    font-size: 1rem;
+    margin-top:1rem;
+    height:2.5rem;
+    cursor: pointer;
+}
+.edit-date-input:focus{
+  outline: none !important;
+   box-shadow: green 0 0 5px;
+}
